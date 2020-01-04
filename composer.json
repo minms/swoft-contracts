@@ -1,0 +1,26 @@
+{
+  "name": "minms/swoft-contracts",
+  "type": "library",
+  "require": {
+    "php": ">7.0",
+    "swoft/framework": "~2.0.0",
+    "swoft/db": "~2.0.0"
+  },
+  "authors": [
+    {
+      "name": "minms",
+      "email": "master@minms.com"
+    }
+  ],
+  "require": {
+    "lcobucci/jwt": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Minms\\SwoftContracts\\": "src/"
+    },
+    "files": [
+      "src/Helper/Functions.php"
+    ]
+  }
+}
